@@ -1,4 +1,4 @@
-#in this we have to search the particular element in 2d array
+27#in this we have to search the particular element in 2d array
 
 import numpy as np
 

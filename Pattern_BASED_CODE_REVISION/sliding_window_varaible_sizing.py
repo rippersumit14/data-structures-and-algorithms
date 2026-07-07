@@ -14,7 +14,11 @@ def length_of_longest_sub_strings(s):
         char_set.add(s[right])
         max_len = max(max_len, right-left+1)
 
+    print(char_set)
+
     return max_len
 
 
-length_of_longest_sub_strings("SUmitPandey")
+print(length_of_longest_sub_strings("helloWorld"))
+
+
