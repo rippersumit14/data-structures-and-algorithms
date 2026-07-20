@@ -24,5 +24,4 @@ hot = TreeNode("tree", [])
 
 tree.addChild(cold)
 tree.addChild(hot)
-print(tree)
 
