@@ -11,3 +11,22 @@ for i in range(1, len(arr)):
 
 print(current_sum)
 
+
+nums = [2,1,0,1,0]
+
+red = []
+white = []
+blue = []
+
+for i in nums:
+    if i == 0:
+        red.append(i)
+    elif i == 1:
+        white.append(i)
+    else:
+        blue.append(i)
+
+final = red + white + blue
+
+print(final)
+
