@@ -19,7 +19,55 @@ Explanation:
 10 is the largest element in the array.
 '''
 
-lisy = [2,5,1,3,0]
+class solution:
+    def max_largest(self, nums: list):
 
-a = max(lisy)
-print(a)
+        # Assume first element is the largest
+        maxi = nums[0]
+
+        # Traverse through the array
+        for i in range(1, len(nums)):
+
+            # If current element is greater than
+            # the largest value found so far
+            if nums[i] > maxi:
+                maxi = nums[i]
+
+        return maxi
+
+
+solution_class = solution()
+
+nums = [1, 2, 3, 4, 5]
+
+result = solution_class.max_largest(nums)
+
+print(result)
+
+#The time complexity of the code will be o(n)
+#The space complexity of the code will be o(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
