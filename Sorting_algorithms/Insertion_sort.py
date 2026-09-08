@@ -1,5 +1,5 @@
 #Insertion sort
-#In insertion sort wwe first select the first element and find it's correct position and add it their
+#In insertion sort we first select the first element and find it's correct position and add it their
 
 def insertion_sort(customList):
     for i in range(1, len(customList)): #first element is always sorted

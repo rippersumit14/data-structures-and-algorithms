@@ -20,7 +20,7 @@ def selection_sort(customList):
     print(customList)
 
 
-C_list = [4,3,2,5]
+C_list = [1,1,0,2,1,0]
 selection_sort(C_list)
 
 #Time_complexity => o(n^2)
