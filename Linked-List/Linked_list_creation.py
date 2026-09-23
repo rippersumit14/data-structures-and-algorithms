@@ -1,7 +1,7 @@
 #Linked-list elements are not stored at a contiguous memory location
 #to create a linked_list we need to define a class with value and pointer
 
-#delcaring the node class
+#declaring the node class
 class Node:
     def __init__(self, value):
         self.value = value #the value
@@ -22,6 +22,8 @@ print(new_linked_list.tail.value)#new node's value of the tail
 
 #the time complexity of this code o(1)
 #the space complexity of this code o(1)
+
+
 
 
 

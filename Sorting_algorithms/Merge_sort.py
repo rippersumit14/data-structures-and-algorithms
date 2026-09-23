@@ -7,8 +7,8 @@ def merge_sort(arr):
     left_half = arr[:mid]
     right_half = arr[mid:]
 
-    sorted_left = merge_sort(left_half)
-    sorted_right = merge_sort(right_half)
+    left = merge_sort(left_half)
+    right = merge_sort(right_half)
 
     return merge(right_half, left_half)
 
